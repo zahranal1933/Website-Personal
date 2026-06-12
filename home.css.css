@@ -1,0 +1,139 @@
+.mainpage{
+    width: 620px;
+    margin-left: 60px;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    background-color:rgba(46, 46, 46, 0.74);
+    box-shadow: 5px 7px 11px #a6ade7;
+    border-radius: 25px;
+}
+
+.topb{
+   background-color: white;
+   color: white;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.bgcol{
+    background-color: rgba(46, 46, 46, 0.74);
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.collapsing {
+    background-color: rgba(46, 46, 46, 0.74);
+    border-radius: 25px;
+    box-shadow: 5px 7px 11px #a6ace7;
+    position: absolute;
+    float: right;
+    right: 80px;
+    width: 370px;
+    overflow: hidden
+}
+
+.collapse {   
+    background-color: rgb(46, 46, 46, 0.74);
+    border-radius: 25px;
+    box-shadow: 5px 7px 11px #a6ace7;
+    position: absolute;
+    float: right;
+    right: 80px;
+    width: 370px;
+}
+
+
+ul {
+    height: 0px;
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+li a{
+    position: relative;
+    color: white;
+    left: 39%;
+    padding-left: 25px;
+    display: inline-flex;
+    padding-top: 15px;
+    float: left;
+    text-decoration: none;
+    
+}
+
+li a:hover:not(.aktif) {
+    color: #b8bef7;
+}
+
+.aktif {
+    color: #b8bef7;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: transparent;
+}
+
+.btn {
+    color: white;
+    display: inline;
+    position: relative;
+    top: 40px;
+    left: 60px;
+    border: 2px solid #a6ace7;
+    border-radius: 13px;
+}
+
+.btn:hover {
+    background-color:#a6ace7;
+    color: black;
+}
+
+.btn2 {
+    display: inline-block;
+    position: relative;
+    top: 42px;
+    left: 380px;
+    border: 2px solid #a6ace7;
+    border-radius: 13px;
+    color: #a6ace7;
+    width: 70px;
+    height: 40px;
+}
+
+.btn2:hover{
+    background-color: #a6ace7;
+    transition: 0.4s;
+    color: black;
+}
+
+.btn2 span{
+    position: relative;
+    transition: 0.7s;
+    opacity: 0;
+}
+
+.btn2 span:after{
+    position: absolute;
+    content: '\00bb';
+    top: 0;
+    padding-left: -20px;
+
+}
+
+.btn2:hover span{
+    opacity: 1;
+    padding-left: 20px;
+}
